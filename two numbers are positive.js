@@ -24,3 +24,5 @@ function twoArePositive(a, b, c) {
 function twoArePositive(a, b, c) {
     return (a > 0) + (b > 0) + (c > 0) == 2;
 }
+
+// addding something new lol
