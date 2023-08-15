@@ -16,6 +16,7 @@ function twoArePositive(a, b, c) {
 }
 
 // Best solutions
+// if the length of the filter method is 2, then it means that only two numbers are positive
 function twoArePositive(a, b, c) {
     return [...arguments].filter(i => i > 0).length === 2;
 };
